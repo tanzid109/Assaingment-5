@@ -27,10 +27,6 @@
         </div>
       </div>
     </nav>
-    <div class='flex justify-center text-center mt-6 gap-1 lg:gap-2'>
-      <button id="donation-tab" class="btn px-3 lg:px-7 bg-[#B4F461] mr-2  font-bold">Donation</button>
-      <button id="history-tab" class=" btn px-4 lg:px-8 font-bold ml-2">History</button>
-    </div>
   </header>
   <section class="w-10/12 mx-auto my-10">
     <div class="flex items-center gap-3 mb-8">
@@ -44,7 +40,7 @@
     <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mt-2">
       <div class="collapse-title text-xl font-medium">What is the Document Object Model?</div>
       <div class="collapse-content">
-        <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of
+        <p class="bg-orange-200 p-2 rounded-xl">The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of
           an HTML or
           XML document as a tree of objects, enabling developers to access, modify, and manipulate the content,
           structure, and
@@ -54,7 +50,7 @@
     <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border mt-2">
       <div class="collapse-title text-xl font-medium">How do you select an element from the (DOM)?</div>
       <div class="collapse-content">
-        <p>
+        <p class="bg-orange-200 p-2 rounded-xl">
           To select an element from the DOM, you can use methods like getElementById() for selecting by ID,
           getElementsByClassName() for selecting elements by class, getElementsByTagName() for tag-based selection, or
           querySelector() and querySelectorAll() for more flexible CSS-style selectors. These methods allow you to
@@ -66,7 +62,7 @@
       <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM and why is it
         usefull?</div>
       <div class="collapse-content">
-        <p>
+        <p class="bg-orange-200 p-2 rounded-xl">
           Event delegation is a technique in the DOM where you add an event listener to a parent element instead of
           individual
           child elements. The parent listens for events on its children using the event's bubbling phase, where events
@@ -79,7 +75,7 @@
       <div class="collapse-title text-xl font-medium">How do you multiple an elements attributes and style using the
         DOM?</div>
       <div class="collapse-content">
-        <p>To modify multiple attributes and styles of an element in the DOM, you  can use the `setAttribute()` method or directly
+        <p class="bg-orange-200 p-2 rounded-xl">To modify multiple attributes and styles of an element in the DOM, you  can use the `setAttribute()` method or directly
           assign values to its properties for attributes like `src` or `id`. For styles, you can use the `style`
           property to set
           individual CSS properties, such as `element.style.color = 'red'`, or assign multiple styles at once using the
@@ -89,7 +85,7 @@
       </div>
     </div>
   </section>
-  <footer class="h-28 mt-10 bg-[#faf8f4]">
+  <footer class="h-28 mt-8 bg-[#faf8f4]">
   </footer>
   <script src="index.js"></script>
 </body>
